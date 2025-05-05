@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	max-height: 10rem;
+}
+h1 {
+	padding: 2rem;
+	transition: all 0.05s;
+}
+h1:hover {
+	scale: 1.2;
+}
+
+#drumkit-container {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+#drumkit-container > div {
+	padding: 0.5rem;
+	border: 1px solid black;
+	border-radius: 5px;
+	transition: all 0.05s;
+}
+
+.pounded {
+	background: green;
+	color: white;
+	scale: 1.2;
+}
