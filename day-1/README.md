@@ -22,3 +22,8 @@ Learning and mastering the fundamentals. Indeed fundamentals are the key when tr
 - lsp for js, html, css
 - tmux for terminal management (makes me feel like hackerman lol)
 - of course, a browser (I use Arc in Mac)
+
+#### Further Notes
+The solution I made was solely based on intuition and there might be some performance issue in the way I instantiate playing audio. I don't know what it is yet. Can some of you guys point me to the right direction? Thanks!
+
+*Also I use the (function myFunction(...args) {})(...args); syntax because I found it fun instead of calling my function at the bottom/top of my script 😜*
